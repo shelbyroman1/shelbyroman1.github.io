@@ -1,0 +1,193 @@
+<!-- Shelby Roman - Portfolio -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelby Roman's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importing Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="#home">Shelby Roman</a></h1>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active-link">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#professional-experience">Professional Experience</a></li>
+                <li><a href="#volunteer-work">Volunteer Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Shelby Roman</h1>
+            <p>CS & Spanish Student at Colby College</p>
+            <a href="#contact-me" class="btn">Contact Me</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about-me">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="Shelby_Portfolio_pic.png" alt="Headshot of Shelby Roman">
+                    </div>
+                    <div class="about-text">
+                        <h3>Who I Am</h3>
+                        <p>Hello! I'm a senior at Colby College, majoring in Computer Science and Spanish with a minor in Mathematics. I'm interested in the ways that these different disciplines interact with one another. I am driven by a passion for problem solving and I love finding the logic in systems, whether that's in Python, Spanish, or a math equation.</p>
+                        <p>When I'm not coding or practicing conjugations, I love to spend time with my friends and family, go to concerts, cook and bake, travel, and swim.</p>
+                        <ul class="skills-list">
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Swift</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="professional-experience">
+            <div class="container">
+                <h2>Professional Experience</h2>
+                <div class="professional-grid">
+                    <!-- Experience 1: TA/Grade/Tutor -->
+                    <div class="professional-card">
+                        <div class="professional-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 4.34315 3.34315 3 5 3H19C20.6569 3 22 4.34315 22 6V15C22 16.6569 20.6569 18 19 18H13V19H15C15.5523 19 16 19.4477 16 20C16 20.5523 15.5523 21 15 21H9C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19H11V18H5C3.34315 18 2 16.6569 2 15V6ZM5 5C4.44772 5 4 5.44772 4 6V15C4 15.5523 4.44772 16 5 16H19C19.5523 16 20 15.5523 20 15V6C20 5.44772 19.5523 5 19 5H5Z" fill="#000000"/>
+                            </svg>
+                            <!-- downloaded from: https://www.svgrepo.com -->
+                        </div>
+                        <h3>TA, Grader, Tutor</h3>
+                        <p><i>Colby College Computer Science Department</i></p>
+                        <p><i>Waterville, Maine</i></p>
+                        <p><i>September 2023-December 2024, September 2025-Present</i></p>
+                        <ul>
+                            <li>Host weekly TA sessions by guiding students through problems, encouraging independent problem-solving and critical thinking</li>
+                            <li>Promote student literacy in key CS topics through individualized tutoring plans and targeted support</li>
+                            <li>Ensure academic success by efficiently and accurately grading assignments, providing constructive feedback for improvement</li>
+                            <li>Offer comprehensive support for homework assignments, projects, course content, and study techniques</li>
+                        </ul>
+                    </div>
+                    <!-- Experience 2: Cashier -->
+                    <div class="professional-card">
+                        <div class="professional-icon">
+                            <!-- Simple SVG Icon (Code) -->
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 18L20.1703 11.7771C20.0391 10.7932 19.9735 10.3012 19.7392 9.93082C19.5327 9.60444 19.2362 9.34481 18.8854 9.1833C18.4873 9 17.991 9 16.9983 9H7.00165C6.00904 9 5.51274 9 5.11461 9.1833C4.76381 9.34481 4.46727 9.60444 4.26081 9.93082C4.0265 10.3012 3.96091 10.7932 3.82972 11.7771L3 18M21 18H3M21 18V19.4C21 19.9601 21 20.2401 20.891 20.454C20.7951 20.6422 20.6422 20.7951 20.454 20.891C20.2401 21 19.9601 21 19.4 21H4.6C4.03995 21 3.75992 21 3.54601 20.891C3.35785 20.7951 3.20487 20.6422 3.10899 20.454C3 20.2401 3 19.9601 3 19.4V18M7.5 12V12.01M10.5 12V12.01M9 15V15.01M12 15V15.01M15 15V15.01M13.5 12V12.01M16.5 12V12.01M9 9V6M5.8 6H12.2C12.48 6 12.62 6 12.727 5.9455C12.8211 5.89757 12.8976 5.82108 12.9455 5.727C13 5.62004 13 5.48003 13 5.2V3.8C13 3.51997 13 3.37996 12.9455 3.273C12.8976 3.17892 12.8211 3.10243 12.727 3.0545C12.62 3 12.48 3 12.2 3H5.8C5.51997 3 5.37996 3 5.273 3.0545C5.17892 3.10243 5.10243 3.17892 5.0545 3.273C5 3.37996 5 3.51997 5 3.8V5.2C5 5.48003 5 5.62004 5.0545 5.727C5.10243 5.82108 5.17892 5.89757 5.273 5.9455C5.37996 6 5.51997 6 5.8 6Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <!-- downloaded from: https://www.svgrepo.com -->
+                        </div>
+                        <h3>Cashier</h3>
+                        <p><i>American Plant</i></p>
+                        <p><i>Bethesda, Maryland</i></p>
+                        <p><i>March 2022-May 2022</i></p>
+                        <ul>
+                            <li>Provided exemplary customer satisfaction through attentive service</li>
+                            <li>Optimized the shopping experience for customers by facilitating precise and efficient sales transactions</li>
+                            <li>Proactively responded to customer inquiries, directing them to the appropriate department for further assistance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteer Work Section -->
+        <section id="volunteer-work">
+            <div class="container">
+                <h2>Volunteer Work</h2>
+                <div class="volunteer-grid">
+                    <!-- Experience 1: Hall School -->
+                    <div class="volunteer-card">
+                        <div class="volunteer-icon">
+                            <!-- Simple SVG Icon (Code) -->
+                            <svg width="24" height="24" viewBox="0 0 256 256" fill="#000000" id="Flat" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M112,184a7.99977,7.99977,0,0,1-8,8H80v24a8,8,0,0,1-16,0V192H40a8,8,0,0,1,0-16H64V152a8,8,0,0,1,16,0v24h24A7.99977,7.99977,0,0,1,112,184ZM104,64H40a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm48,112.06641h64a8,8,0,0,0,0-16H152a8,8,0,0,0,0,16Zm64,15.86718H152a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm-61.65674-90.27685a7.99945,7.99945,0,0,0,11.31348,0L184,83.31348l18.34326,18.34326a7.99984,7.99984,0,1,0,11.31348-11.31348L195.3136,72l18.34314-18.34326a7.99984,7.99984,0,0,0-11.31348-11.31348L184,60.68652,165.65674,42.34326a7.99984,7.99984,0,0,0-11.31348,11.31348L172.6864,72,154.34326,90.34326A7.99915,7.99915,0,0,0,154.34326,101.65674Z"/>
+                            </svg>
+                            <!-- downloaded from: https://www.svgrepo.com -->
+                        </div>
+                        <h3>Volunteer Student Teacher</h3>
+                        <p><i>Albert S. Hall School</i></p>
+                        <p><i>Waterville, Maine</i></p>
+                        <p><i>September 2025-Present</i></p>
+                        <ul>
+                            <li>Provide differentiated 5th-grade math instruction through one-on-one support, learning stations, and advanced enrichment groups</li>
+                            <li>Guide students through math problems, promoting logical reasoning and independent problem-solving skills</li>
+                            <li>Provide circulating, on-demand support during independent work periods, addressing individual questions</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience 2: English Conversation Assistant -->
+                    <div class="volunteer-card">
+                        <div class="volunteer-icon">
+                            <svg width="24" height="24" viewBox="0 0 128 128" fill="#000000" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" version="1.1" id="_x31_" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+                                <g>
+                                    <circle cx="24.3" cy="24.4" r="8.5"/>
+                                    <path d="M54,36.7l-14.5,5.3l-14-6.5C24.7,35.2,23.9,35,23,35c-0.8,0-3.5,0-4.2,0c-3.5,0-6.3,2.9-6.4,6.4v26.4
+		                            c0,1.8,0.7,3.4,1.9,4.6c0,0,2.3,43.1,2.3,43.3c0,2.9,2.3,5.2,5.2,5.2c2.7,0,5-2.1,5.2-4.8c0,0,0,0,0,0l0-0.3c0,0,0-0.1,0-0.1
+		                            c0,0,0,0,0,0l1.4-44.2c0.7-1,1.1-2.3,1.1-3.5V45.5l8.4,3.9c0.9,0.5,2,0.5,2.9,0.2l16-5.8c2-0.8,2.9-2.8,2.3-4.8
+		                            C58.1,37,56,36,54,36.7z"/>
+	                                <path d="M48.1,4.6c-6.3,0-11.4,2.7-11.4,5.9c0,1.3,0.8,2.5,2.2,3.5l-3.1,5.7l7.3-3.9c1.5,0.4,3.2,0.6,5,0.6
+		                            c6.3,0,11.4-2.7,11.4-5.9C59.5,7.2,54.4,4.6,48.1,4.6z"/>
+	                                <circle cx="103.4" cy="24.4" r="8.5"/>
+	                                <path d="M108.8,35c-0.8,0-3.5,0-4.2,0c-1,0-2.3,0.4-3,1l-12.5,12l-14.5-5.3c-2-0.8-4.1,0.3-5,2.3c-0.7,2,0.3,4.1,2.3,4.8l16,5.8
+		                            c0.9,0.3,2,0.3,2.9-0.2l7.4-5.7l0,18.2c0.1,1.3,0.5,2.6,1.1,3.5l1.4,44.2c0,0,0,0,0,0c0,0,0,0.1,0,0.1l0,0.3c0,0,0,0,0,0
+		                            c0.2,2.7,2.4,4.8,5.2,4.8c2.9,0,5.2-2.3,5.2-5.2c0-0.1,2.3-43.3,2.3-43.3c1.2-1.2,1.9-2.8,1.9-4.6V41.4
+		                            C115.1,37.9,112.3,35,108.8,35z"/>
+	                                <path d="M81.4,30.3L91.6,32l-6.1-3.5c1.4-1,2.2-2.2,2.2-3.5c0-3.3-5.1-5.9-11.4-5.9C70.1,19.1,65,21.7,65,25
+		                            c0,3.3,5.1,5.9,11.4,5.9C78.2,30.9,79.9,30.7,81.4,30.3z"/>
+                                </g>
+                            </svg>
+                            <!-- downloaded from: https://www.svgrepo.com -->
+                        </div>
+                        <h3>Volunteer Conversation Assistant</h3>
+                        <p><i>Colegio Mª Auxiliadora Salesianas San Vicente</i></p>
+                        <p><i>Seville, Spain</i></p>
+                        <p><i>February 2025-May 2025</i></p>
+                        <ul>
+                            <li>Facilitated English conversations with Spanish students aged 15-20 to enhance language fluency and confidence</li>
+                            <li>Provided individualized feedback on pronunciation, vocabulary, and grammar to improve communication skills</li>
+                            <li>Fostered a supportive and encouraging environment to motivate students</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-me">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>Have a job opening, a project in mind, or just want to say hi? I'd love to hear from you.</p>
+                        <p><strong>Email:</strong> slroma26@colby.edu</p>
+                        <p><strong>Phone:</strong> (240) 507-4536</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
