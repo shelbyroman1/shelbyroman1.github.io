@@ -167,6 +167,7 @@ img {
     /* Background image with a dark overlay */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                 url('colby-college.jpeg') no-repeat center center/cover;
+                /* image from: https://www.crimsoneducation.org/us/blog/colby-college-acceptance-rate */
     padding: 0 20px;
 }
 
