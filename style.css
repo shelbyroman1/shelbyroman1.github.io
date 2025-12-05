@@ -262,9 +262,9 @@ img {
 }
 
 /* Volunteer Work Section */
-#volunteer-experience {
-    background: #fff; /* Alternating background color */
-}
+/* #volunteer-work { */
+    /* background: #fff; Alternating background color */
+/* } */
 
 .volunteer-grid {
     display: grid;
@@ -302,10 +302,46 @@ img {
     font-size: 1.5rem;
 }
 
-/* Contact Section */
-#contact-me {
-    background: #fff;
+/* Projects Subsection */
+#projects {
+    background: #fff; /* Alternating background color */
 }
+
+.projects-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.project-card {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+.project-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+    font-weight: 600;
+}
+.project-description {
+    color: #555;
+}
+
+/* Contact Section */
+/* #contact-me {
+    background: #fff;
+} */
 
 .contact-content {
     max-width: 700px;
@@ -327,7 +363,8 @@ img {
 /* Tablets and smaller desktops */
 @media(max-width: 992px) {
     .professional-grid,
-    .volunteer-grid {
+    .volunteer-grid,
+    .projects-grid {
         /* Go from 2 columns to 1 */
         grid-template-columns: 1fr;
     }
@@ -355,7 +392,7 @@ img {
         background: #fff;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     }
-    
+
     /* JS will toggle this class */
     #navbar .nav-links.active {
         display: flex;
@@ -376,7 +413,7 @@ img {
         border-bottom-color: #f4f4f4; /* Remove bottom border on mobile */
         background: #f9f9f9;
     }
-    
+
     /* Animate hamburger icon */
     .menu-toggle.active .bar:nth-child(1) {
         transform: rotate(45deg) translate(5px, 6px);
@@ -404,7 +441,7 @@ img {
         /* Stack columns on mobile */
         grid-template-columns: 1fr;
     }
-    
+
     .about-image {
         margin-bottom: 2rem;
     }
@@ -416,12 +453,12 @@ img {
         text-align: left;
         margin: 1.5rem auto;
     }
-    
+
     .contact-info {
         text-align: center;
         margin-bottom: 2rem;
     }
-    
+
     .professional-grid,
     .volunteer-grid {
         /* Stack columns on mobile */
